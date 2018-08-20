@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include patents *.css
+recursive-include patents *.csv
+recursive-include patents *.html
+recursive-include patents *.ico
+recursive-include patents *.js
+recursive-include patents *.json
+recursive-include patents *.md
+recursive-include patents *.png
+recursive-include patents *.py
+recursive-include patents *.svg
+recursive-include patents *.txt
+recursive-exclude patents *.pyc
